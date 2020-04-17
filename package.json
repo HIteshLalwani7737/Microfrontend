@@ -50,7 +50,8 @@
     "webpack-dev-server": "1.16.2",
     "webpack-manifest-plugin": "1.1.0",
     "whatwg-fetch": "2.0.2",
-    "cross-env": "7.0.2"
+    "cross-env": "7.0.2",
+    "cors":"2.8.5"
   },
   "scripts": {
     "start": "node scripts/start.js",
