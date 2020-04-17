@@ -2,11 +2,11 @@ import React from 'react';
 
 export default () =>
   <header>
-    <h1>Logo</h1>
+    <h1>Welcome to magicbricks</h1>
     <nav>
-      <ul>
-        <li>About</li>
-        <li>Contact</li>
-      </ul>
+        <ul>
+            <li>About Microfrontend</li>
+            <li>Header Demo</li>
+        </ul>
     </nav>
-  </header>;
+</header>;

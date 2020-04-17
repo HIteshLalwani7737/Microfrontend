@@ -2,10 +2,12 @@ const path = require('path');
 const fs = require('fs');
 const express = require('express');
 const React = require('react');
+var cors = require('cors');
 const App = require('./transpiled/App.js').default;
 const { renderToString } = require('react-dom/server');
 
 const server = express();
+server.use(cors());
 
 server.get('/', (req, res) => {
   const htmlPath = path.resolve(__dirname, 'build', 'index.html');
